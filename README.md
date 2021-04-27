@@ -29,7 +29,7 @@ Ogni log viene salvato come nuovo record a database, senza controllare se è cam
 
 ### GET /api/logs
 Permette di tornare i log salvati, filtrabili per:
-- data di inzio e di fine
+- intervallo di date
 - commessa
 - stato
 
