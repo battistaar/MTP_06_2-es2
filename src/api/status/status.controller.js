@@ -1,0 +1,1 @@
+const logModel = require('../log/log.model');
