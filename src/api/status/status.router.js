@@ -1,6 +1,7 @@
 const express = require('express');
 const router = express.Router();
+const statusController = require('./status.controller');
 
-//definizione dele api relative ai todo
+router.get('/', statusController.getStatus);
 
 module.exports = router;
